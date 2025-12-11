@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <img src="https://www.sunbeaminfo.in/img/new/new_logo.png" alt="Sunbeam Image"  width="300" height="100"></img>
+    </div>
+    <h1 text style="text-align: center;">Sunbeam Registration form</h1><br>
+
+    <div class="main">
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/JK8Bf5jSIsQ" width="600" height="300"></iframe>
+        </div>
+        <div class="forms">
+            <table class="main">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Birthdate:</td>
+                    <td><input type="date" id="birthdate" name="birthdate" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="Password" name="Password" required></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea id="Address" name="Address" rows="4" cols="30" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male" required>  
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female" requqired>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Image:</td>
+                    <td><input type="file" id="image" name="image" accept="image/*" required></td>
+                </tr>
+                <tr>
+                    <td>select your course:</td>
+                    <td>
+                        <select id="course" name="course" required>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Electrical Engineering">Electrical Engineering</option>
+                            <option value="Electronics Engineering">Electronics Engineering</option>
+                            <option value="IT">IT</option>
+                            <option value="AIML">AIML</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Skills Set:</td>
+                    <td>
+                        <input type="checkbox" id="java" name="skills" value="java">
+                        <label for="java">Java</label>
+                        <input type="checkbox" id="CPP" name="skills" value="CPP">
+                        <label for="CPP">CPP</label>
+                        <input type="checkbox" id="OS" name="skills" value="OS">
+                        <label for="OS">OS</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Register</button>
+                    </td>
+                    <td>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.forms{
+    align-content: right;
+}
+
+.forms{
+    margin-top: 20px;
+}
+
+.video{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+td{
+    padding: 5px;
+}
