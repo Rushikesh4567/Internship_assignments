@@ -9,4 +9,5 @@ function validateLogin(event) {
     }
 
     alert("Login successful!");
+    window.location.href = "Register.html";
 }
